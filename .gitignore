@@ -1,0 +1,40 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# FraudGuard data
+datasets/raw/*
+datasets/processed/*
+datasets/splits/*
+
+# Trained models and generated artifacts
+artifacts/*
+mlruns/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# OS files
+Thumbs.db
+.DS_Store
